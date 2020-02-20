@@ -1,4 +1,4 @@
 # deployment
-ce projet à pour but de creer une application de machine learning en utilisant streamlit.
-le jeu de donnée est telechargeable depuis kaggle.
-Le projet à pour but d'identifier puis de predie les clients de la banque qui vont churné.
+this project aims to create a machine learning application using streamlit.
+the data set is downloadable from kaggle.
+The aim of the project is to identify and predict the bank’s clients who will be listening.
