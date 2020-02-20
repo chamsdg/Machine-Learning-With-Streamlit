@@ -1,4 +1,3 @@
--i https://pypi.org/simple
 pip install pandas
 pip install numpy
 pip install matplotlib
