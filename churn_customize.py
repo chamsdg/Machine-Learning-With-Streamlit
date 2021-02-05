@@ -104,31 +104,6 @@ def main():
         plt.ylabel('Fréquence')
         st.pyplot()
    
-    #Matplotlib Plot
-    #if st.checkbox("Correlation Plot"):
-        #plt.matshow(df.corr())
-        #st.pyplot()
-        
-    # Seaborn Plot
-    #if st.checkbox("Correlation Plot with Annotation[Seaborn]"):
-        #st.write(sns.heatmap(df.corr(),annot=True))
-        #st.pyplot()
-
-    # Counts Plots
-    #if st.checkbox("Plot of Value Counts"):
-        #st.text("Value Counts By Target/Class")
-
-        #all_columns_names = df.columns.tolist()
-        #primary_col = st.selectbox('Select Primary Column To Group By',all_columns_names)
-        #selected_column_names = st.multiselect('Select Columns',all_columns_names)
-        #if st.button("Plot"):
-            #st.text("Generating Plot for: {} and {}".format(primary_col,selected_column_names))
-            #if selected_column_names:
-                #vc_plot = df.groupby(primary_col)[selected_column_names].count()        
-            #else:
-                #vc_plot = df.iloc[:,-1].value_counts()
-            #st.write(vc_plot.plot(kind='bar'))
-            #st.pyplot()
         
     from sklearn.preprocessing import LabelEncoder
     lb = LabelEncoder() 
